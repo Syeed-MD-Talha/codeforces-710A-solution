@@ -1,0 +1,23 @@
+// Bismillahir Rahmanir Rahim
+#include<bits/stdc++.h>
+typedef long long ll;
+typedef unsigned long long ul;
+int i,j;
+using namespace std;
+int main()
+{
+   //freopen("a.txt","r",stdin);
+ int x;char ch;
+
+cin>>ch>>x;
+if(ch=='a'&&x==1||ch=='h'&&x==1)cout<<"3\n";
+else if(ch=='a'&&x==8||ch=='h'&&x==8)cout<<"3\n";
+else if(x==1||x==8||ch=='a'||ch=='h')cout<<"5\n";
+
+else cout<<"8\n";
+
+
+
+
+}
+
